@@ -1,4 +1,4 @@
-# Sistema de Gestión de Tickets (Híbrido)
+# Sistema de Gestión de Tickets
 
 Proyecto desarrollado para la gestión de incidencias técnicas, integrando administración de sistemas Linux y programación de aplicaciones. Realizado en un entorno Ubuntu mediante conexion SSH (Warp para trabajo, DBeaver para bases de datos.)
 
