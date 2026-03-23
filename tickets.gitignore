@@ -1,0 +1,12 @@
+# No subir backups con datos reales
+database/backups/
+*.sql.gz
+*.sql
+
+# No subir archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# No subir archivos de configuración de Warp o DBeaver
+.dbeaver/
+.warp/
