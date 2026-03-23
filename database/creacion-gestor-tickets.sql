@@ -92,6 +92,28 @@ CREATE TABLE `tickets` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
+-- Carga minima de datos para pruebas rapidas
+
+-- 1. Usuarios
+INSERT INTO users (name, email) VALUES 
+('Edgar Admin', 'edgar@admin.com'),
+('Maria Cliente', 'maria@test.com');
+
+-- 2. Categorias 
+INSERT INTO categories (name_category) VALUES 
+('Hardware'), 
+('Software');
+
+-- 3. Tecnicos
+INSERT INTO technicians (name, specialty) VALUES 
+('Roberto Sistemas', 'Servidores'),
+('Ana Cloud', 'Infraestructura');
+
+-- 4. Tickets 
+INSERT INTO tickets (title, description, state, priority, id_user, id_category, id_tech) VALUES 
+('PC No enciende', 'Fallo de fuente de alimentacion', 'no', 'high', 1, 1, 1),
+('Error Outlook', 'No abre el correo corporativo', 'no', 'medium', 2, 2, 2);
+
 --
 -- Dumping data for table `tickets`
 --
