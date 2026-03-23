@@ -30,7 +30,7 @@ He configurado el sistema operativo Linux para que ejecute estas tareas de forma
 * **Reporte de estado:** Programado todos los lunes a las 08:00 AM para revisión semanal.
 
 > **Configuración en Crontab:**
-> 00 03 * * * /home/usuario/proyectos/gestor_tickets/scripts/backup_tickets.sh
+> 00 03 * * * /home/edgar/proyectos/gestor_tickets/scripts/backup_tickets.sh
 
 ---
 *Este proyecto demuestra la integración de SQL, Bash y Python en un entorno real de administración de sistemas y desarrollo de software.*
