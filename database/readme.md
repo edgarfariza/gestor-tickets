@@ -1,1 +1,4 @@
 Dump de la base de datos para la gestion de tickets. Consta de 4 columnas Users, Tickets, Categories y Technicians con sus respectivas columnas y relaciones entre ellas. Ademas insercion de datos de prueba. 
+
+Diagrama Entidad Relacion de la Base de Datos
+
